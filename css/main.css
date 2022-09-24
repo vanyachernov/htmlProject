@@ -1,11 +1,12 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: ;
 }
 
 .main {
-  width: 690px;
-  height: 653px;
+  width: 100%;
+  height: auto;
   background-color: #18191A;
 }
 
@@ -20,7 +21,6 @@ body {
   float: right;
   padding:  0px 10px;
 }
-
 
 .navbar_container {
   display: flex;
@@ -38,10 +38,22 @@ body {
   padding: auto;
 }
 
+.secondary {
+  width: 100%;
+  display: flex;
+}
+
 .main-block {
-  width: 50%;
+  width: 40%;
   height: 606px;
   background-color: #242626;
+  display: block;
+}
+
+.secondary-block {
+  width: 60%;
+  height: auto;
+  background-color: #18191A;
 }
 
 .info-block {
@@ -62,7 +74,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
- /* border: 1px solid red;*/ /* #242626*/;
+  border: 1px solid #242626;
 }
 
 .gear {
@@ -88,5 +100,4 @@ body {
   padding-top: 2px;
   padding-left: 50px;
 }
-
 
