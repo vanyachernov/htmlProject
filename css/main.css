@@ -38,29 +38,55 @@ body {
   padding: auto;
 }
 
-.block {
+.main-block {
   width: 50%;
   height: 606px;
   background-color: #242626;
 }
 
-.first-block {
+.info-block {
   display: inline-block;
   width: 100%;
   height: 60px;
-  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subordinate-block {
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  color: #e7e8eb;
+  display: block;
+  width: 90%;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+ /* border: 1px solid red;*/ /* #242626*/;
 }
 
 .gear {
   float: right;
-  padding: 5px 10px 0px 0px;
+  padding: 6px 10px 0px 0px;
 }
 
-.title {
-  float: left;
+.main-title {
   font-weight: 600;
-  font-size: 2em;
+  font-size: 1.6em;
   font-family: 'Open Sans', sans-serif;
   color: #E4E6EA;
-  margin: 10px 0px 0px 20px;
+  margin: 12px 0px 0px 20px;
 }
+
+.people {
+  position: static;
+  padding-top: 6px;
+  float: left;
+}
+
+.main-section {
+  padding-top: 2px;
+  padding-left: 50px;
+}
+
+
